@@ -2,13 +2,13 @@
 
 	<?php
 
-	    function numRange($start, $end){        
+	    function range($start, $end){        
 	        while ($start <= $end) {
 	           echo $start . "<br>";
 	            $start++;
 	        }   
 	    }
-	    numRange(6, 11);
+	    range(6, 11);
 
 	    echo "<br>". "<br>";
 
