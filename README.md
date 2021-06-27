@@ -12,13 +12,13 @@
 
 	    echo "<br>". "<br>";
 
-	    function sum1($min, $max){
+	    function sum($min, $max){
 	        $total = 0;
 	        for ($i=$min; $i <= $max; $i++) { 
 	            $total += $i;            
 	        }  
 	        echo ($total);  
 	    }
-	    sum1(1, 3);
+	    sum(1, 3);
 
 	?>
